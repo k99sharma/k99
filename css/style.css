@@ -1,0 +1,19 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.blackButton{
+    color: white;
+    background-color: black;
+}
+
+.socio-links{
+    max-height: 25px;
+    max-width: 25px;
+}
+
+#newsletter{
+    text-align: center;
+}

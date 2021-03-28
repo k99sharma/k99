@@ -10,10 +10,34 @@
 }
 
 .socio-links{
-    max-height: 25px;
-    max-width: 25px;
+    max-height: 20px;
+    max-width: 20px;
 }
 
 #newsletter{
     text-align: center;
+    margin-top: 10%;
 }
+
+
+/* index.html CSS */
+#main-section{
+    margin-top: 5%;
+}
+
+#content-column{
+    background-color: black;
+  }
+  
+#image-column{
+    position: relative;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+}
+  
+  #content{
+    color: white;
+    padding-top: 25%;
+    padding-bottom: 25%;
+  }

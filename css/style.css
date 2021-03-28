@@ -21,6 +21,10 @@
     margin-top: 10%;
 }
 
+.redLabel{
+    color: red;
+}
+
 
 /* index.html CSS */
 #main-section{

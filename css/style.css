@@ -45,14 +45,15 @@
 #image-column{
     position: relative;
     background-size: cover;
+    padding-top: 5%;
     max-height: 100%;
     max-width: 100%;
 }
   
   #content{
     color: white;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 
 

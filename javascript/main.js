@@ -1,3 +1,4 @@
+// fixing navbar to top on scrolling
 const navbar = document.querySelector('#navbar');
 
 const sticky = navbar.offsetTop;
@@ -9,4 +10,3 @@ window.onscroll = () => {
         navbar.classList.remove("fixed-top");
     }
 }
-

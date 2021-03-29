@@ -16,7 +16,7 @@
 
   <body>
     <!-- navbar section -->
-    <section class="container-fluid my-4">
+    <section class="container my-4">
         <!-- navbar -->
         <nav class="navbar navbar-expand-md navbar-light" id="navbar" style="background-color: white;">
           <div class="container-fluid">
@@ -50,7 +50,7 @@
                 </li>
       
                 <li class="nav-item mx-md-3 mt-2 my-md-0">
-                  <a class="btn blackButton" target="_blank" href="#">Resume</a>
+                  <a class="btn orangeButton" target="_blank" href="#">Resume</a>
                 </li>
               </ul><!-- website main nav links ends here -->
       
@@ -83,22 +83,35 @@
 
 
       <!-- main content -->
-      <section class="container-fluid" id="main-section">
-
+      <section class="container" id="main-section">
         <div class="row">
+          <!-- default image -->
+          <div class="col-12 d-md-none text-center mb-2" id="default-image-column">
+            <img src="assets/images/home2.svg" class="img-fluid" alt="image" width="50%" height="50%"> 
+          </div>
+
             <!-- content column -->
             <div class="col-12 col-md-8" id="content-column">
-                <div class="container text-center px-5" id="content">
-                    <h2>I am Kalash Sharma</h2>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, iure velit voluptatem porro, fugit eos sunt excepturi facere aperiam reprehenderit minus doloribus harum distinctio rem sequi corrupti? Laboriosam, repudiandae quas.</p>
-                </div>      
+                <div class="container px-5" id="content">
+                  <p class="greyTheme">Hi, my name is</p>
+                  <h1 class="orangeTheme">Kalash Sharma.</h1>
+                  <h1 class="orangeTheme">Computer Science Student.<br>
+                      I love to develop and build things.</h1>
+                  <br>
+                  <p class="greyTheme">Full Stack Developer who is passionate about<br>
+                     writing clean, elegant and efficient code.
+                  </p>
+                  <br>
+                  <h1 class="orangeTheme">I want to make things that make a difference.</h1>
+                  <br>
+                  <a class="btn btn-lg btn-outline-primary" href="contactme.html">Get In Touch</a>
+                </div>  
             </div>
             <!-- content column ends here -->
     
             <!-- image column -->
-            <div class="col-12 d-none d-md-block col-md-4 p-0" id="image-column">
-                <img src="assets/images/home.jpg" class="img-fluid" alt="image" width="100%" height="100%">    
+            <div class="col-12 d-none d-md-block col-md-4 pt-5" id="image-column">
+                <img src="assets/images/home8.svg" class="img-fluid" alt="home image" width="100%" height="100%">    
             </div>
             <!-- image column ends here -->
             </div>
@@ -110,7 +123,7 @@
 
 
     <!-- footer section -->
-    <section class="container-fluid" id="newsletter">
+    <section class="container" id="newsletter">
         <!-- follow me links container -->
         <div class="container mb-4" id="follow-me-container">
             <div class="d-flex flex-row justify-content-center mb-5">
@@ -119,9 +132,9 @@
               <a class="mx-2" target="_blank" href="https://www.linkedin.com/in/kalash-sharma-a4a6a6194/"><img src="assets/icons/linkedin.svg" class="img-fluid socio-links" width="20px" height="20px" alt="linkedin icon"></a>
             </div>
       
-            <small>Designed & built by Kalash Sharma</small>
+            <small class="greyTheme">Designed & built by Kalash Sharma</small>
             <br>
-            <small>© 2021 Kalash Sharma. All rights reserved</small>
+            <small class="greyTheme">© 2021 Kalash Sharma. All rights reserved</small>
         </div>
         <!-- follow me container ends here -->
     </section>

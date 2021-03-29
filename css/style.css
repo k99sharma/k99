@@ -6,9 +6,9 @@
     padding: 0;
 }
 
-.blackButton{
+.orangeButton{
     color: white;
-    background-color: black;
+    background-color: orange;
 }
 
 .socio-links{
@@ -25,9 +25,12 @@
     color: red;
 }
 
-.active{
-    border-bottom: 1px solid black;
-    box-sizing: border-box;
+.orangeTheme{
+    color: orange;
+}
+
+.greyTheme{
+    color: grey;
 }
 
 /* index.html CSS */
@@ -48,6 +51,15 @@
   
   #content{
     color: white;
-    padding-top: 25%;
-    padding-bottom: 25%;
+    padding-top: 15%;
+    padding-bottom: 15%;
   }
+
+
+/* projects.html CSS */
+#projects-container{
+    background-color: black;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}

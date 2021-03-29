@@ -25,6 +25,10 @@
     color: red;
 }
 
+.active{
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
 
 /* index.html CSS */
 #main-section{

@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .mainThemeButton{
     color: white;
     background-color:orangered;
@@ -68,4 +72,16 @@
     color: white;
     padding-top: 5%;
     padding-bottom: 5%;
+}
+
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+.mainFont{
+    font-family: 'Poppins', sans-serif;
+}
+
+.supportingFont{
+    font-family: 'Open Sans', sans-serif;
 }

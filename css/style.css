@@ -6,9 +6,9 @@
     padding: 0;
 }
 
-.orangeButton{
+.mainThemeButton{
     color: white;
-    background-color: orange;
+    background-color:orangered;
 }
 
 .socio-links{
@@ -25,21 +25,26 @@
     color: red;
 }
 
-.orangeTheme{
-    color: orange;
+.mainTheme{
+    color:orangered;
 }
 
 .greyTheme{
     color: grey;
 }
 
+.box-shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 /* index.html CSS */
 #main-section{
     margin-top: 5%;
+    
 }
 
 #content-column{
-    background-color: black;
+    background-color: #1A1A1D;
   }
   
 #image-column{
@@ -59,7 +64,7 @@
 
 /* projects.html CSS */
 #projects-container{
-    background-color: black;
+    background-color: #1A1A1D;
     color: white;
     padding-top: 5%;
     padding-bottom: 5%;

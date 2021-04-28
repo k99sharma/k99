@@ -12,7 +12,7 @@ body{
 
 .mainThemeButton{
     color: white;
-    background-color:orangered;
+    background-color: #07689f;
 }
 
 .socio-links{
@@ -30,7 +30,7 @@ body{
 }
 
 .mainTheme{
-    color:orangered;
+    color: #07689f;
 }
 
 .greyTheme{
@@ -48,7 +48,7 @@ body{
 }
 
 #content-column{
-    background-color: #1A1A1D;
+    background-color: #1e2022;
   }
   
 #image-column{
@@ -59,29 +59,72 @@ body{
     max-width: 100%;
 }
   
-  #content{
+#content{
     color: white;
     padding-top: 5%;
     padding-bottom: 5%;
-  }
+}
 
 
 /* projects.html CSS */
 #projects-container{
     background-color: #1A1A1D;
     color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+/* rps project */
+.project{
+    background-image: linear-gradient(to right, #810000, #ce1212);
+    border-radius: 25px;
+    transition: all 0.5s ease-out;
+}
+
+.project-thumbnail img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 30%;
+}
+
+.project-description{
+    display: none;
+}
+
+.project:hover{
+    background-image: linear-gradient(to right, #e84545, #903749);
+}
+
+.project:hover .project-thumbnail{
+    display: none;
+}
+
+.project:hover .project-title{
+    color: #2b2e4a;
+}
+
+.project:hover .project-description{
+    color: #eeebdd;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.project:hover .project-links{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Cinzel:wght@500&display=swap');
 
 .mainFont{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Cinzel', serif;
 }
 
 .supportingFont{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }

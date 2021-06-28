@@ -1,132 +1,142 @@
 /* CSS common to all pages */
 
-*{
-    border: 0;
-    margin: 0;
-    padding: 0;
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-.mainThemeButton{
-    color: white;
-    background-color: #07689f;
+.mainThemeButton {
+  color: white;
+  background-color: #07689f;
 }
 
-.socio-links{
-    max-height: 20px;
-    max-width: 20px;
+.socio-links {
+  max-height: 20px;
+  max-width: 20px;
 }
 
-#newsletter{
-    text-align: center;
-    margin-top: 10%;
+#newsletter {
+  text-align: center;
+  margin-top: 10%;
 }
 
-.redLabel{
-    color: red;
+.redLabel {
+  color: red;
 }
 
-.mainTheme{
-    color: #07689f;
+.mainTheme {
+  color: #07689f;
 }
 
-.greyTheme{
-    color: grey;
+.greyTheme {
+  color: grey;
 }
 
-.box-shadow{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.box-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* navbar link */
 
 /* index.html CSS */
-#main-section{
-    margin-top: 5%;
-    
+#main-section {
+  margin-top: 5%;
 }
 
-#content-column{
-    background-color: #1e2022;
-  }
-  
-#image-column{
-    position: relative;
-    background-size: cover;
-    padding-top: 5%;
-    max-height: 100%;
-    max-width: 100%;
-}
-  
-#content{
-    color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
+#content-column {
+  background-color: #1e2022;
 }
 
+#image-column {
+  position: relative;
+  background-size: cover;
+  padding-top: 5%;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#content {
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
 /* projects.html CSS */
-#projects-container{
-    background-color: #1A1A1D;
-    color: white;
-    padding-top: 10%;
-    padding-bottom: 10%;
+#projects-container {
+  background-color: #1a1a1d;
+  color: white;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/* projects */
+.project {
+  border-radius: 25px;
+  transition: all 0.5s ease-out;
+}
+
+.project-thumbnail img {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 30%;
+}
+
+.project-description {
+  display: none;
+}
+
+.project:hover .project-thumbnail {
+  display: none;
+}
+
+.project:hover .project-title {
+  color: #2b2e4a;
+}
+
+.project:hover .project-description {
+  color: #eeebdd;
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.project:hover .project-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /* rps project */
-.project{
-    background-image: linear-gradient(to right, #810000, #ce1212);
-    border-radius: 25px;
-    transition: all 0.5s ease-out;
+#rps-project {
+  background-image: linear-gradient(to right, #810000, #ce1212);
 }
 
-.project-thumbnail img{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    width: 30%;
+#rps-project:hover {
+  background-image: linear-gradient(to right, #e84545, #903749);
 }
 
-.project-description{
-    display: none;
+/* bifrost project */
+#bifrost-project {
+  background-image: linear-gradient(to right, #00b712 0%, #5aff15 74%);
 }
 
-.project:hover{
-    background-image: linear-gradient(to right, #e84545, #903749);
+#bifrost-project:hover {
+  background-image: linear-gradient(to right, #3bb78f 0%, #0bab64 74%);
 }
-
-.project:hover .project-thumbnail{
-    display: none;
-}
-
-.project:hover .project-title{
-    color: #2b2e4a;
-}
-
-.project:hover .project-description{
-    color: #eeebdd;
-    display: flex;
-    flex-direction: column;
-    padding: 3%;
-}
-
-.project:hover .project-links{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
 
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Cinzel:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Cinzel:wght@500&display=swap");
 
-.mainFont{
-    font-family: 'Cinzel', serif;
+.mainFont {
+  font-family: "Cinzel", serif;
 }
 
-.supportingFont{
-    font-family: 'Barlow Semi Condensed', sans-serif;
+.supportingFont {
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
